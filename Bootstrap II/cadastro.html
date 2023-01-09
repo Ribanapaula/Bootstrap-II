@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Bootstrap II/Projeto/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Bootstrap II/custom.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+
+  <section id="cadastro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h2>Cadastro</h2>
+                <p>Faça seu cadastro para receber nossos produtos em sua casa</p>
+            </div>
+
+            <form class="row g-4">
+              <div class="col-md-6">
+                <label for="validationDefault01" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="digite seu nome" required>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefault02" class="form-label">Email</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="email@email.com" required>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefault03" class="form-label">Telefone</label>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="(00)00000-0000" required>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefault04" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="rua, avenida" required>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefault05" class="form-label">Complemento</label>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="casa, ap" required>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefault06" class="form-label">Bairro</label>
+                <input type="text" class="form-control" id="validationDefault06" placeholder="digite seu bairro" required>
+              </div>
+              <div class="col-md-4">
+                <label for="validationDefault07" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="validationDefault07" placeholder="digite sua cidade" required>
+              </div>
+              <div class="col-md-4">
+                <label for="validationDefault08" class="form-label">Estado</label>
+                <select class="form-select" area-label="Default select">
+                  <option selected>selecione um estado</option> 
+                  <option value="ac">AC</option>
+                  <option value="al">AL</option>
+                  <option value="ap">AP</option>
+                  <option value="am">AM</option>
+                  <option value="ba">BA</option>
+                  <option value="ce">CE</option>
+                  <option value="df">DF</option>
+                  <option value="es">ES</option>
+                  <option value="go">GO</option>
+                  <option value="ma">MA</option>
+                  <option value="mt">MT</option>
+                  <option value="ms">MS</option>
+                  <option value="mg">MG</option>
+                  <option value="pa">PA</option>
+                  <option value="pb">PB</option>
+                  <option value="pr">PR</option>
+                  <option value="pe">PE</option>
+                  <option value="pi">PI</option>
+                  <option value="rj">RJ</option>
+                  <option value="rn">RN</option>
+                  <option value="rs">RS</option>
+                  <option value="ro">RO</option>
+                  <option value="rr">RR</option>
+                  <option value="sc">SC</option>
+                  <option value="sp">SP</option>
+                  <option value="se">SE</option>
+                  <option value="to">TO</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="validationDefault09" class="form-label">CEP</label>
+                <input type="text" class="form-control" id="validationDefault09" placeholder="00000-000" required>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                  <label class="form-check-label" for="invalidCheck3">
+                    Aceito receber mensagens promocionais
+                  </label>
+                  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <label for="info" class="col-form-label-sm">Informações</label>
+                        <textarea class="form-control" name="informacoes" id="info" rows="5"></textarea>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-success" type="submit">Realizar cadastro</button>
+              </div>
+          
+              <p><a class = "btn btn-lg btn-link" data-bs-toggle="modal" data-bs-target="#modal-4">Cadastre-se</a>para receber novidades</p>
+                    <div class="modal fade" id="modal-4">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Inscrever-me na lista</h5>
+                                </div>
+                
+                                <div class="modal-body">
+                                    <h6>Preencha os campos para receber novidades e promoções</h6>
+                                    <form action="" class="form-inline">
+                                        <form action="" class="form-control">
+                                          <input type="text" class="form-control mb-3" name="nome" placeholder="nome" required>
+                                          <input type="text" class="form-control mb-3" name="email" placeholder="email" required>
+                                          <button type="submit" class="btn btn-success">Receber novidades</button>
+                                        </form>
+                                    </form>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+  </section>
+
+  <script src="../Bootstrap/Projeto/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

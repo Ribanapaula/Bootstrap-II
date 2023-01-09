@@ -1,0 +1,58 @@
+.card{
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+section{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    text-align: justify;
+}
+
+input,
+textarea{
+    margin-bottom: 1rem;
+    padding: 2px;
+    width: 20px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h1, h2, h5{
+    text-decoration: wavy;
+    color: dodgerblue;
+    font-style: oblique;
+}
+
+body{
+    background-color:black;
+}
+
+p, label{
+    color: whitesmoke;
+}
+
+table{
+    background-color:azure;
+}
+
+.card-body{
+    background-color:dimgrey;
+}
+
+textarea.form-control{
+    width: 100% !important;
+}
+
+label{
+    width: 100%;
+}
+
+a{
+    text-align: center;
+}
+
